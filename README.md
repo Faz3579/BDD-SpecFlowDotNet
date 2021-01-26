@@ -1,4 +1,4 @@
-#### CVS Health - DevSecOps Software Engineering - POC on Behavior Driven Development (BDD) for .NET using SpecFlow and Nunit Framework.
+#### CVS Health - DevSecOps Software Engineering - POC on Behavior Driven Development (BDD) for .NET using SpecFlow Frame work, Nunit Test Plans and Coverlet.
 
 #### Behavior Driven Development (BDD):
 
@@ -92,6 +92,7 @@ The following feature was implemented in this project:
     dotnet run test
     
     #To run code coverage using coverlet
+    dotnet test SpecFlowNetCoreDemo\SpecFlowNetCoreDemo.csproj /p:CollectCoverage=true /p:IncludeTestAssembly=true 
     
 
 #### Frequently Asked Questions
